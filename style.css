@@ -1,0 +1,65 @@
+body {
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #0f172a;
+    color: #f8fafc;
+    margin: 0;
+    padding: 40px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+h3 {
+    color: #38bdf8;
+    margin-top: 30px;
+    text-align: center;
+    max-width: 700px;
+    font-weight: 400;
+}
+
+button {
+    background: #2563eb;
+    color: white;
+    border: none;
+    padding: 12px 24px;
+    font-size: 15px;
+    font-weight: 600;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+    background: #1d4ed8;
+    transform: translateY(-1px);
+    box-shadow: 0 10px 15px -3px rgba(37, 99, 235, 0.3);
+}
+
+div[id^="eredmeny"] {
+    background-color: #1e293b;
+    border: 1px solid #334155;
+    padding: 15px;
+    margin: 15px 0 40px 0;
+    width: 100%;
+    max-width: 500px;
+    border-radius: 8px;
+    text-align: center;
+    color: #22c55e;
+    font-weight: bold;
+    min-height: 24px;
+}
+
+div[id^="eredmeny"]:empty {
+    display: none;
+}
+
+@media (max-width: 600px) {
+    body {
+        padding: 20px;
+    }
+
+    h3 {
+        font-size: 1.1rem;
+    }
+}
