@@ -62,4 +62,9 @@ div[id^="eredmeny"]:empty {
     h3 {
         font-size: 1.1rem;
     }
+
+    button {
+        width: 100%;
+        max-width: 300px;
+    }
 }
